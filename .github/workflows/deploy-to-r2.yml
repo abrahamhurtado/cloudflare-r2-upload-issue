@@ -1,0 +1,12 @@
+name: Deploy to R2
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  deploy:
+    runs-on: node:20.16.0-alpine
+    steps:
+      - run: npm ci
+

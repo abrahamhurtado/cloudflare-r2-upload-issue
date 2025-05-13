@@ -1,0 +1,15 @@
+{
+  "name": "cloudflare-r2-upload-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.0",
+    "wrangler": "^4.14.4"
+  }
+}
